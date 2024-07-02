@@ -36,7 +36,7 @@ class InvoiceCreationController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function index()
-    {
+    { 
         // $data = null;
         $data = InvoiceCreation::orderBy('id', 'desc')->get();
         // $data = $data->sortByDesc('id');
