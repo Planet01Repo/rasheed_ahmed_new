@@ -18,7 +18,7 @@
         <li><a href="#" class="active">View All <?= (isset($title))?$title:''; ?></a> </li>
       </ul>
       <div class="page-title"> <i class="icon-custom-left"></i>
-        <h3>View All - <span class="semi-bold"><?= (isset($title))?$title:''; ?></span></h3>
+        <h3>View All -- <span class="semi-bold"><?= (isset($title))?$title:''; ?></span></h3>
       </div>
       <div class="row-fluid">
         <div class="span12">
